@@ -195653,3 +195653,110 @@ select {
   }
 }
 
+
+ 
+@media screen and (max-width: 600px) {
+  .kes-radio-footer .inner .button,
+  .kes-radio-footer .kes-radio-footer-countdown {
+	  display: block;
+	  margin: 5px 0;
+  }
+
+  .kes-radio-footer .hidden-phone {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .kes-radio-footer .inner .button {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .kes-radio-footer .inner {
+    height: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+.kes-radio-footer {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+}
+
+
+.kes-radio-footer.bottom {
+}
+
+.kes-radio-footer .radio-footer-content {
+  display: inline-block;
+}
+
+.kes-radio-footer.fixed {
+  position: fixed !important;
+}
+
+.kes-radio-footer .inner {
+  background-color: #d33;
+  box-sizing: border-box;
+  border-bottom: 0px solid #db5555;
+  color: #fff;
+  padding: 10px 50px 10px 0;
+  position: relative;
+  text-align: center;
+}
+
+.kes-radio-footer .inner .button {
+  border-radius: 3px;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 15px;
+  box-shadow: none;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-shadow: none;
+}
+
+.kes-radio-footer .inner .button:hover {
+  text-decoration: none;
+}
+
+/* Control buttons */
+.kes-radio-footer .buttons span {
+  background: url("images/icon-arrow.png") no-repeat center center #B82828;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  height: 40px;
+  text-indent: -9999px;
+  width: 40px;
+}
+
+.kes-radio-footer .buttons .opened {
+  background-position: left bottom;
+  background-color: transparent !important;
+}
+
+.kes-radio-footer .buttons .opened:hover {
+  background-position: right bottom;
+}
+
+.kes-radio-footer .buttons .closed {
+  background-position: left top;
+}
+
+.kes-radio-footer .buttons .closed:hover {
+  background-position: right top;
+}
+
+
+.kes-radio-footer .text-message {
+  font-size: 15px;
+}
