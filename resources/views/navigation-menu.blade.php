@@ -18,11 +18,15 @@
                     </x-jet-nav-link>
 
                     <x-jet-nav-link href="{{ route('analisis') }}" :active="request()->routeIs('analisis')">
-                        {{ __('Análisis') }}
+                        {{ __('Solicitud') }}
                     </x-jet-nav-link>
 
                     <x-jet-nav-link href="{{ route('resultados') }}" :active="request()->routeIs('resultados')">
-                        {{ __('Resultados') }}
+                        {{ __('Seguimiento de Análisis') }}
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('resultados') }}" :active="request()->routeIs('resultados')">
+                        {{ __('Recepción Orden de pago') }}
                     </x-jet-nav-link>
                 </div>
             </div>
