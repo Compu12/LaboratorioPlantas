@@ -25,3 +25,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/analisis', function () {
     return view('analisis');
 })->name('analisis');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/resultados', function () {
+    return view('resultados');
+})->name('resultados');
