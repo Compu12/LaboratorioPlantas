@@ -16,11 +16,9 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
-                    <x-jet-nav-link href="" :active="request()->routeIs('dashboard')">
-                        Análisis
-                    </x-jet-nav-link>
-                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                   
+                    <x-jet-nav-link href="{{ route('analisis') }}" :active="request()->routeIs('analisis')">
+                        {{ __('Analisis') }}
                     </x-jet-nav-link>
                 </div>
             </div>
@@ -163,8 +161,8 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
-            <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
+            <x-jet-responsive-nav-link href="{{ route('analisis') }}" :active="request()->routeIs('analisis')">
+                {{ __('Analisis') }}
             </x-jet-responsive-nav-link>
         </div>
 
