@@ -619,18 +619,14 @@ input::placeholder, textarea::placeholder {
   min-height: 1.5em;
 }
 
-select {
-<<<<<<< HEAD
-  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e"); */
-=======
+select{
   background-image: url("data:image/svg+xml,%3csvg xmlns='' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
->>>>>>> 4296dec055a3cdb9990e22baa760a062326aafa2
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
 }
 
 [multiple] {
@@ -644,10 +640,8 @@ select {
 }
 
 
-      [type='checkbox'],
-      [type='radio']
-     {
-  -webkit-appearance: none;
+  [type='checkbox'],[type='radio'] {
+    -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   padding: 0;
@@ -667,7 +661,8 @@ select {
   background-color: #fff;
   border-color: #6b7280;
   border-width: 1px;
-}
+  }
+
 
 [type='checkbox'] {
   border-radius: 0px;
@@ -3604,7 +3599,7 @@ select {
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  background-color: rgba(152, 36, 36, var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
@@ -3614,7 +3609,8 @@ select {
 
 .bg-gray-100 {
   --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  /* background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); */
+  background-color: #ffffff;
 }
 
 .bg-gray-200 {
@@ -25772,12 +25768,12 @@ select {
 
 .text-gray-600 {
   --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity));
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .text-gray-700 {
   --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .text-gray-800 {
