@@ -53,7 +53,7 @@
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                         perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                         <br>
-                                        <a class="underline" href="">solicitar</a>
+                                        <a class="underline" href="{{ route('analisis') }}">solicitar</a>
                                     </dd>
 
                                 </div>
@@ -76,7 +76,7 @@
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                         perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                         <br>
-                                        <a class="underline" href="">solicitar</a>
+                                        <a class="underline" href="{{ route('analisis') }}">solicitar</a>
                                     </dd>
                                 </div>
 
@@ -98,7 +98,7 @@
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                         perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                         <br>
-                                        <a class="underline" href="">solicitar</a>
+                                        <a class="underline" href="{{ route('analisis') }}">solicitar</a>
                                     </dd>
                                 </div>
 

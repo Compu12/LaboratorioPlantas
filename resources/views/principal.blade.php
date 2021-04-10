@@ -619,16 +619,21 @@
                                                                 href="/v4.0/index.php/buscar">Login</a></li> --}}
                                                         @if (Route::has('login'))
                                                             {{-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block"> --}}
-                                                                {{-- <div class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"> --}}
-                                                                @auth
-                                                                <li class="sp-menu-item"><a href="{{ url('/dashboard') }}">Panel de Control</a></li>
-                                                                @else
-                                                                <li class="sp-menu-item"><a href="{{ route('login') }}">Ingrese</a></li>
+                                                            {{-- <div class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"> --}}
+                                                            @auth
+                                                                <li class="sp-menu-item"><a
+                                                                        href="{{ url('/dashboard') }}">Panel de
+                                                                        Control</a></li>
+                                                            @else
+                                                                <li class="sp-menu-item"><a
+                                                                        href="{{ route('login') }}">Ingrese</a></li>
 
-                                                                    @if (Route::has('register'))
-                                                                    <li class="sp-menu-item"><a href="{{ route('register') }}">Registrese</a></li>
-                                                                    @endif
-                                                                @endauth
+                                                                @if (Route::has('register'))
+                                                                    <li class="sp-menu-item"><a
+                                                                            href="{{ route('register') }}">Registrese</a>
+                                                                    </li>
+                                                                @endif
+                                                            @endauth
                                                             {{-- </div> --}}
                                                         @endif
                                                     </ul>
