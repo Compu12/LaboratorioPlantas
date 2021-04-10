@@ -621,12 +621,12 @@
                                                             {{-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block"> --}}
                                                                 {{-- <div class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"> --}}
                                                                 @auth
-                                                                <li class="sp-menu-item"><a href="{{ url('/dashboard') }}">Dashboard</a></li>
+                                                                <li class="sp-menu-item"><a href="{{ url('/dashboard') }}">Panel de Control</a></li>
                                                                 @else
-                                                                <li class="sp-menu-item"><a href="{{ route('login') }}">Log in</a></li>
+                                                                <li class="sp-menu-item"><a href="{{ route('login') }}">Ingrese</a></li>
 
                                                                     @if (Route::has('register'))
-                                                                    <li class="sp-menu-item"><a href="{{ route('register') }}">Register</a></li>
+                                                                    <li class="sp-menu-item"><a href="{{ route('register') }}">Registrese</a></li>
                                                                     @endif
                                                                 @endauth
                                                             {{-- </div> --}}
